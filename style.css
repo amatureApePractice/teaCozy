@@ -53,7 +53,24 @@ header {
   background-color: black;
 }
 
+.mid-container {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1000px;
+}
 
+.images-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+}
+
+.mid-image {
+  padding: 20px;
+}
 
 #banner {
   /* padding-top: 69px; */
