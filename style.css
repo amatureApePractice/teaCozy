@@ -23,6 +23,16 @@ header {
   justify-content: space-between;
 }
 
+.mid-image img {
+  height: 200px;
+  width: 300px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
 .menu li {
   display: inline-flex;
   justify-content: space-around;
