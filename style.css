@@ -57,7 +57,7 @@ header {
   margin-top: 75px;
   display: flex;
   flex-direction: column;
-  flex-basis: 1000px;
+  /* flex-basis: 1000px; */
 }
 
 .images-container {
@@ -72,15 +72,38 @@ header {
   padding: 20px;
 }
 
-#banner {
-  /* padding-top: 69px; */
-  height: 700px;
-  position: relative;
-  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg") center no-repeat;
-  /* background-size: cover; */
-  top: 69px;
+.locations-container {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg") center no-repeat;
+  height: 500px;
   display: flex;
   justify-content: center;
 }
+
+.locations-container-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.locations-cards-container {
+  /* display: flex;
+  justify-content: space-evenly; */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.locations-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  padding-bottom: 25px;
+}
+
 
 
